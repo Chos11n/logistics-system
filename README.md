@@ -11,8 +11,7 @@ In this project, we are trying to build an application that is user-oriented, ve
 
 [![React Version](https://img.shields.io/badge/react-18.2.0-blue)](https://react.dev/)
 [![Spring Boot Version](https://img.shields.io/badge/spring_boot-3.1.5-green)](https://spring.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+[!License: Apache License 2.0]
 **基于物联网的智能物流管理解决方案** - 专为中小型物流企业设计的全流程数字化管理平台
 
 ![系统界面预览](docs/screenshots/dashboard-preview.png)
