@@ -1,0 +1,152 @@
+# ======================== #
+# 操作系统文件（跨平台）
+# ======================== #
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Linux
+*~
+.directory
+
+# 编辑器临时文件
+*.swp
+*.swo
+*.vsidx
+
+
+# ======================== #
+# 前端（React/JavaScript）
+# ======================== #
+# 依赖目录
+node_modules/
+.pnpm/
+.jest/
+
+# 构建产物
+/build
+/dist
+/.next
+/.vite
+/.cache
+/out
+
+# 缓存与日志
+.eslintcache
+.npm
+.yarn-integrity
+*.log
+*.stats.html
+
+# 测试报告
+/coverage
+.nyc_output
+
+
+# ======================== #
+# 后端（Python）
+# ======================== #
+# 虚拟环境
+/venv
+/ENV
+.env/
+.envrc
+
+# 字节码
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# 开发工具
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+
+# ======================== #
+# 数据库（SQL）
+# ======================== #
+# 本地数据库文件
+*.db
+*.sqlite
+*.dump
+*.bak
+
+# 数据库日志
+*.ldb
+transaction-logs/
+
+
+# ======================== #
+# IDE配置
+# ======================== #
+# VSCode
+.vscode/*
+!.vscode/extensions.json  # 允许共享推荐插件
+!.vscode/settings.json.example  # 示例配置
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-workspace
+
+
+# ======================== #
+# 通用开发文件
+# ======================== #
+# 敏感文件（必须忽略！）
+.env
+.env.local
+*.key
+*.pem
+*.cert
+config/credentials.yml
+
+# 日志与缓存
+/logs
+*.log
+*.tmp
+
+# 压缩包
+*.zip
+*.tar.gz
+*.tgz
+
+
+# ======================== #
+# 其他工具
+# ======================== #
+# Docker
+docker-compose.override.yml
+
+# CI/CD
+.circleci/
+.github/workflows/local-*
+
+# 文档生成
+/site
+/docs/_build/
+
+
+# ======================== #
+# 特殊规则
+# ======================== #
+# 忽略目录但保留结构
+/logs/*
+!/logs/.gitkeep
+
+# 排除所有 .txt 但保留特定文件
+*.txt
+!LICENSE.txt
+!README.txt
