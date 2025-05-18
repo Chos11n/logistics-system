@@ -58,7 +58,7 @@ node_modules/
 /ENV
 .env/
 .envrc
-.venv
+.venv/
 
 # 字节码
 __pycache__/
